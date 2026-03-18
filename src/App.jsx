@@ -31,7 +31,7 @@ const tutorialSteps = [
         title: 'Ativar conta na xStocks',
         desc:
           'Conecte sua carteira Solana (Phantom ou Solflare) na plataforma oficial para comecar a pontuar. Caso possua, use um codigo de convite para ganhar bonus permanente.',
-        link: 'https://defi.xstocks.fi/points',
+        link: 'https://defi.xstocks.fi/points?ref=SCHULX',
       },
       {
         id: 't1_2',
@@ -441,3 +441,4 @@ export default function App() {
     </div>
   );
 }
+
