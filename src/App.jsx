@@ -23,35 +23,35 @@ const tutorialSteps = [
     id: 'phase1',
     title: 'Fase 1: Cadastro e xPoints',
     description:
-      'Ative sua conta, entenda os fundamentos e faca o check-in diario para maximizar seus ganhos.',
+      'Ative sua conta, entenda os fundamentos e faça o check-in diário para maximizar seus ganhos.',
     icon: <Zap className="h-6 w-6 text-[#00E1FF]" />,
     tasks: [
       {
         id: 't1_1',
         title: 'Ativar conta na xStocks',
         desc:
-          'Conecte sua carteira Solana (Phantom ou Solflare) na plataforma oficial para comecar a pontuar. Caso possua, use um codigo de convite para ganhar bonus permanente.',
+          'Conecte sua carteira Solana (Phantom ou Solflare) à plataforma oficial para começar a pontuar. Caso possua, use um código de convite para ganhar bônus permanente.',
         link: 'https://defi.xstocks.fi/points?ref=SCHULX',
       },
       {
         id: 't1_2',
-        title: 'Check-in diario (botao GM)',
+        title: 'Check-in diário (botão GM)',
         desc:
-          'Acesse a aba de pontos diariamente e clique no botao "GM". Isso garante pontos todos os dias de forma gratuita.',
+          'Acesse a aba de pontos diariamente e clique no botão "GM". Isso garante pontos todos os dias, de forma gratuita.',
         link: 'https://defi.xstocks.fi/points',
       },
       {
         id: 't1_3',
         title: 'Entrar no Telegram oficial',
         desc:
-          'Junte-se ao grupo do Telegram da xStocks e vincule sua conta para receber boost permanente na pontuacao.',
+          'Junte-se ao grupo do Telegram da xStocks e vincule sua conta para receber um bônus permanente na pontuação.',
         link: 'https://defi.xstocks.fi/points',
       },
       {
         id: 't1_4',
         title: 'Verificar Proof of Reserves',
         desc:
-          'Boas praticas: as xStocks sao emitidas pela Backed e lastreadas 1:1. Verifique as reservas on-chain antes de operar.',
+          'Boas práticas: as xStocks são emitidas pela Backed e lastreadas na proporção de 1:1. Verifique as reservas on-chain antes de operar.',
         link: 'https://defi.xstocks.fi/proof-of-reserves',
       },
     ],
@@ -60,23 +60,23 @@ const tutorialSteps = [
     id: 'phase2',
     title: 'Fase 2: Comprando xStocks',
     description:
-      'Apenas segurar acoes tokenizadas na carteira ja garante a pontuacao do tier base.',
+      'Apenas manter ações tokenizadas na carteira já garante a pontuação do tier base.',
     icon: <Wallet className="h-6 w-6 text-[#00E1FF]" />,
     tasks: [
       {
         id: 't2_1',
         title: 'Ter SOL para taxas',
         desc:
-          'Mantenha uma fracao de SOL na carteira para pagar as taxas de transacao da rede Solana.',
+          'Mantenha uma fração de SOL na carteira para pagar as taxas de transação da rede Solana.',
       },
       {
         id: 't2_2',
         title: 'Comprar ativos xStocks via DEX',
         desc:
-          'Use agregadores como Jupiter ou DEXs como Raydium e Kamino para trocar USDC ou SOL pelas acoes de sua preferencia.',
+          'Use agregadores como Jupiter ou DEXs como Raydium e Kamino para trocar USDC ou SOL pelas ações de sua preferência.',
         link: 'https://jup.ag',
         subLinks: [
-          { name: 'Pagina de ativos xStocks', url: 'https://defi.xstocks.fi/' },
+          { name: 'Página de ativos xStocks', url: 'https://defi.xstocks.fi/' },
           { name: 'Kamino Swap', url: 'https://kamino.com/swap/SOL-NVDAx' },
         ],
       },
@@ -84,46 +84,46 @@ const tutorialSteps = [
   },
   {
     id: 'phase3',
-    title: 'Fase 3: Colateral e emprestimos',
+    title: 'Fase 3: Colateral e empréstimos',
     description:
-      'Forneca seus tokens xStocks como colateral no DeFi. Emprestimos contra sua carteira de acoes rendem mais pontos.',
+      'Forneça seus tokens xStocks como colateral no DeFi. Empréstimos contra sua carteira de ações rendem mais pontos.',
     icon: <TrendingUp className="h-6 w-6 text-[#00E1FF]" />,
     tasks: [
       {
         id: 't3_1',
         title: 'Fazer supply na Kamino',
         desc:
-          'Deposite ativos como QQQx, SPYx ou NVDAx. Voce pode pegar emprestimos em stablecoins contra essas acoes com LTV elevado.',
+          'Deposite ativos como QQQx, SPYx ou NVDAx. Você pode tomar empréstimos em stablecoins contra essas ações com LTV elevado.',
         link: 'https://kamino.com/borrow',
       },
       {
         id: 't3_2',
         title: 'Vault de SPYx na Falcon Finance',
         desc:
-          'Use seus tokens como colateral na Falcon Finance para mintar USDf. O vault de SPYx pode render APR em cima da sua exposicao ao S&P 500.',
+          'Use seus tokens como colateral na Falcon Finance para emitir USDf. O vault de SPYx pode render APR sobre a sua exposição ao S&P 500.',
         link: 'https://falcon.finance',
       },
       {
         id: 't3_3',
         title: 'Alavancagem na Loopscale',
         desc:
-          'Interacao avancada: utilize seus xStocks como colateral para realizar loops alavancados.',
+          'Interação avançada: utilize seus xStocks como colateral para realizar loops alavancados.',
         link: 'https://loopscale.com',
       },
     ],
   },
   {
     id: 'phase4',
-    title: 'Fase 4: Provisao de liquidez',
+    title: 'Fase 4: Provisão de liquidez',
     description:
-      'Fornecer liquidez em pools AMM garante as maiores recompensas em xPoints, alem das taxas de trade.',
+      'Fornecer liquidez em pools AMM garante as maiores recompensas em xPoints, além das taxas de negociação.',
     icon: <Droplets className="h-6 w-6 text-[#00E1FF]" />,
     tasks: [
       {
         id: 't4_1',
         title: 'Adicionar liquidez no Raydium ou Orca',
         desc:
-          'Forneca liquidez em pares consolidados como TSLAx/USDC ou NVDAx/USDC. Fique atento ao risco de impermanent loss.',
+          'Forneça liquidez em pares consolidados como TSLAx/USDC ou NVDAx/USDC. Fique atento ao risco de perda impermanente.',
         subLinks: [
           { name: 'Raydium', url: 'https://raydium.io/' },
           { name: 'Orca', url: 'https://www.orca.so/' },
@@ -232,7 +232,7 @@ export default function App() {
 
             <div className="mt-3 flex items-center gap-2 text-lg font-medium text-black/80">
               <ShieldCheck className="h-5 w-5" />
-              Interacoes oficiais na rede Solana
+              Interações oficiais na rede Solana
             </div>
           </div>
         </div>
@@ -240,10 +240,10 @@ export default function App() {
         <div className="mb-8 grid grid-cols-1 gap-4 md:grid-cols-3">
           <div className="rounded-xl border border-gray-800 bg-[#111] p-5 transition-all hover:border-gray-700">
             <BookOpen className="mb-3 h-6 w-6 text-[#00E1FF]" />
-            <h3 className="mb-2 font-bold text-white">O que e xStocks?</h3>
+            <h3 className="mb-2 font-bold text-white">O que é xStocks?</h3>
             <p className="text-sm leading-relaxed text-gray-400">
-              Acoes americanas como tokens SPL nativos na Solana. Lastreados 1:1 e emitidos
-              pela Backed.
+              Ações americanas tokenizadas como ativos SPL nativos na Solana, lastreadas em
+              1:1 e emitidas pela Backed.
             </p>
           </div>
 
@@ -252,25 +252,25 @@ export default function App() {
             <h3 className="mb-2 font-bold text-white">Crescimento do ecossistema</h3>
             <p className="text-sm leading-relaxed text-gray-400">
               Use este guia para centralizar os links mais importantes e acompanhar as
-              interacoes que fazem sentido dentro do programa.
+              interações mais relevantes dentro do programa.
             </p>
           </div>
 
           <div className="rounded-xl border border-gray-800 bg-[#111] p-5 transition-all hover:border-gray-700">
             <Info className="mb-3 h-6 w-6 text-[#00E1FF]" />
-            <h3 className="mb-2 font-bold text-white">Uso pratico</h3>
+            <h3 className="mb-2 font-bold text-white">Uso prático</h3>
             <p className="text-sm leading-relaxed text-gray-400">
-              Marque tarefas como concluidas, abra os links oficiais e acompanhe o progresso
-              do seu roteiro em uma pagina unica.
+              Marque tarefas como concluídas, abra os links oficiais e acompanhe o progresso
+              do seu roteiro em uma página única.
             </p>
           </div>
         </div>
 
         <div className="mb-8 mt-12">
           <div className="mb-4 flex items-center justify-between gap-4">
-            <h3 className="text-xl font-bold text-white">Guia de interacoes</h3>
+            <h3 className="text-xl font-bold text-white">Guia de interações</h3>
             <span className="rounded-md bg-[#00E1FF]/10 px-3 py-1 font-mono font-bold text-[#00E1FF]">
-              {progressPercentage}% concluido
+              {progressPercentage}% concluído
             </span>
           </div>
           <div className="h-2 w-full overflow-hidden rounded-full border border-gray-800 bg-gray-900">
@@ -404,7 +404,7 @@ export default function App() {
                               >
                                 {isTaskDone ? (
                                   <>
-                                    <CheckCircle2 className="h-4 w-4" /> Concluido
+                                    <CheckCircle2 className="h-4 w-4" /> Concluído
                                   </>
                                 ) : (
                                   <>
@@ -432,9 +432,9 @@ export default function App() {
             <span className="text-sm font-medium uppercase tracking-widest">Solana Mainnet</span>
           </div>
           <p className="mt-2 max-w-2xl text-xs text-gray-600">
-            Este material possui carater educativo. Provisao de liquidez e emprestimos em
-            DeFi envolvem riscos de mercado, como impermanent loss e liquidacao. Nao e
-            recomendacao de investimento.
+            Este material possui caráter educativo. Provisão de liquidez e empréstimos em
+            DeFi envolvem riscos de mercado, como perda impermanente e liquidação. Não é
+            recomendação de investimento.
           </p>
         </div>
       </footer>
